@@ -90,9 +90,8 @@ class CreateGame extends connect(store)(PageViewElement) {
 
         <iron-form id="form1" allowRedirect="true">
             <form action="/createGame" method="get">
-                <paper-item><div class="headers">Pick one of the available fields:</div></paper-item>
                 <paper-input-place id="location" api-key="AIzaSyAzpe2bMiDOVEUjAyS29f9JyZlM5Y2K6rY" value=""
-                label="Pick a place" hide-error></paper-input-place>
+                label="Enter a field" hide-error></paper-input-place>
                 <p></p>
                 <paper-item><div class="headers">Pick one of the available dates:</div></paper-item>
                 <vaadin-date-picker id="date" label="Game Day" value="1901-01-01"></vaadin-date-picker>
